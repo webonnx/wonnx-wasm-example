@@ -1,0 +1,16 @@
+{
+  "name": "wonnx-wasm-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "Tommy van der Vorst <tommy@pixelspark.nl>",
+  "license": "ISC",
+  "dependencies": {
+    "@webonnx/wonnx-wasm": "^0.2.4",
+    "vite": "^2.8.6"
+  }
+}
