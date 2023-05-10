@@ -5,6 +5,7 @@ An example of how to use [WONNX](https://github.com/webonnx/wonnx) on the web th
 ## Running
 
 ```sh
+npm install
 npm run dev
 ```
 
