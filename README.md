@@ -24,7 +24,7 @@ at your option.
 
 Except for the following file: 
 
-`squeezenet-labels.txt`: [source](https://github.com/onnx/models/blob/main/vision/classification/synset.txt), Apache-2.0 license only.
+`data/models/squeezenet-labels.txt`: [source](https://github.com/onnx/models/blob/main/vision/classification/synset.txt), Apache-2.0 license only.
 
 ### Contribution
 
