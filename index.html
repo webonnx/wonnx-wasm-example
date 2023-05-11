@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-
 <html>
 	<head>
-		<title>WONNX wasm test</title>
+		<title>WONNX</title>
+		<style type="text/css">
+		html {
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: rgb(77, 77, 77);
+			font-size: 10pt;
+			line-height: 1.2em;
+		}
+		</style>
 	</head>
 
-	<body>
-		<div id="result">Loading..</div>
-	</body>
-
 	<script type="module" src="./main.js"></script>
+
+	<body>
+		<h1>WONNX: Squeeze image classification</h1>
+		<div id="log">Loading... (If this doesn't load, you may have to enable WebGPU in your browser and reload this page)</div>
+		<video id="player" autoplay width="224" height="224"></video>
+		<div id="perf"></div>
+	</body>
 </html>
